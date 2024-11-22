@@ -159,7 +159,7 @@ test: $(EXAMPLES_LOG)
 
 
 clean:
-	rm -rf *.o *.log *.bin *.tcl *.proj logs/* hls/*
+	rm -rf *.o *.log *.bin *.tcl *.comp logs/* hls/*
 
 .PHONY: clean hls test
 
